@@ -6,7 +6,10 @@ import Register from './pages/Register';
 import Profile from './pages/Profile';
 import Userpage from './pages/Userpage';
 import Adminpage from './pages/Adminpage';
+import { Amplify } from 'aws-amplify';
+// import config from './aws-exports';
 
+// Amplify.configure(config);
 
 function App() {
   return (
